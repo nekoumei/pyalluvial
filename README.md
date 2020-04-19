@@ -20,3 +20,6 @@ wide_df = titanic[['survived', 'class', 'sex', 'freq']].groupby(['survived', 'cl
 #draw alluvial plot
 fig = alluvial.plot(df=wide_df, xaxis_names=['class', 'sex', 'survived'], y_name='freq', alluvium='survived')
 ```
+
+# More Infomations (in Japanese)
+https://note.com/nekoumei/n/n2e4d39129afc
